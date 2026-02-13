@@ -93,6 +93,10 @@ via numerical optimisation.
 
 ### 3.1 Simulation Output
 
+![Alt text](https://github.com/kwantumlabs/Proxy-Advantage/blob/f738d1ba2c078addbd0272564bfaa7ec8814637e/Proxy%20Advantage%201.png)
+
+Figure 1: agent-based simulation for $$300$$ agents with proxy values linearly spaces in $$[-6,6]$$, $$\sigma^2 = 0.1$$, $$c = 0.1$$, $$\alpha = 1.0$$, $$\beta = 2.0$$, $$\gamma = 0.5$$
+
 The simulation produces:
 
 - A red curve representing the optimal investment $$I^* (P)$$ under perfect evaluation.

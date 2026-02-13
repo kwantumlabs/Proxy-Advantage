@@ -104,7 +104,7 @@ The simulation produces:
 
       - Receive high perceived value, even at low investment
       - Rationally invest less
-      - May appear "effortlessly talented" or "naturally gifted"
+      - May appear effortlessly talented, naturally gifted, or "just better"
 
 2. **Moderately negative proxy agents**
 
@@ -116,13 +116,16 @@ The simulation produces:
 
       - Face near-zero marginal returns on effort
       - Rationally disengage
-      - May appear lazy, bitter, or unmotivated
+      - May appear lazy, entitled, or unmotivated
 
 Evaluation noise introduces dispersion around the optimal response, producing "lucky" agents (those below the optimal curve) and "unlucky" agents (those above the optimal curve), but does not eliminate the underlying incentive structure. The resulting shape highlights a systematic motivational gradient induced purely by proxy reliance; not differences in preferences, discipline, or intrinsic motivation.
 
 ### 3.2 Key Result: Proxy Advantage Suppresses Optimal Output
 
-**Proposition: 
+**Proposition**: For any rational agent maximising $$U(I)$$, the relationship between the optimal investment $$I^*$$ and the proxy value $$P$$ is determined by the agent's current probability of success $$S(x)$$. Specifically:
+
+- If $$S(x) > 0.5$$, then $$\large \frac{\partial I^*}{\partial P}$$ $$< 0$$.
+- If $$S(x) < 0.5$$, then $$\large \frac{\partial I^*}{\partial P}$$ $$> 0$$.
 
 ## 4. Proxy-Gaming as a Diagnostic Symptom of Evaluative Failure
 
@@ -173,6 +176,8 @@ This framework challenges several common assumptions:
 
 Instead, effort is shown to be endogenously shaped by evaluative structure. 
 
+### 5.1 Conditions for a Normatively Misaligned Proxy-Based Evaluative Context
+
 We can reasonably expect proxy-based incentive distortions to arise endogenously whenever the following conditions hold:
 
 1. **Evaluators value some latent internal trait and aim to reward it**
@@ -190,6 +195,34 @@ We can reasonably expect proxy-based incentive distortions to arise endogenously
 7. **Agents rationally optimise effort against utility**
 
    Agents respond strategically to the reward structure, allocating effort to maximise expected utility. 
+
+### 5.2 Examples Across Domains
+
+This mechanism applies broadly across domains including, but not limited to:
+
+- **Labour Markets**
+
+  Credentials and institutional pedigree serve as proxies for competence or productivity.
+ 
+- **Academic Publishing**
+
+  Citation counts and journal impact factors act as proxies for intellectual contribution.
+  
+- **Romantic and Social Markets**
+
+  Physical traits, status markers, or popularity metrics proxy for compatibility or care.
+  
+- **Creative and Cultural Platforms**
+
+  Engagement metrics proxy for artistic quality or cultural value.
+  
+- **Online Discourse and Influence**
+
+  Follower counts and virality proxy for credibility or insight.
+  
+- **Organisational Leadership**
+
+  Visibility, confidence, or demographic traits proxy for leadership ability. 
 
 ## 6. Application: Music, Art, and Algorithmic Platforms
 
@@ -214,9 +247,11 @@ The model predicts several well-documented phenomena:
 
 Crucially, these outcomes arise even if platforms genuinely care about artistic quality. 
 
+## 7. Limitations and Future Work
 
 
 
+## 8. Conclusions
 
 
 

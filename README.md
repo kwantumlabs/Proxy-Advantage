@@ -1,4 +1,4 @@
-# Proxy Advantage and Effort Allocation
+# (WIP) Proxy Advantage and Effort Allocation
 
 <p align="center">
   <em>

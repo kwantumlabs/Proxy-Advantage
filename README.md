@@ -95,7 +95,7 @@ via numerical optimisation.
 
 ![Alt text](https://github.com/kwantumlabs/Proxy-Advantage/blob/f738d1ba2c078addbd0272564bfaa7ec8814637e/Proxy%20Advantage%201.png)
 
-Figure 1: agent-based simulation for $$300$$ agents with proxy values linearly spaces in $$[-6,6]$$, $$\sigma^2 = 0.1$$, $$c = 0.1$$, $$\alpha = 1.0$$, $$\beta = 2.0$$, $$\gamma = 0.5$$
+Figure 1: agent-based simulation for $$300$$ agents with proxy values linearly spaced in $$[-6,6]$$, $$\sigma^2 = 0.1$$, $$c = 0.1$$, $$\alpha = 1.0$$, $$\beta = 2.0$$, $$\gamma = 0.5$$
 
 The simulation produces:
 
@@ -126,7 +126,7 @@ Evaluation noise introduces dispersion around the optimal response, producing "l
 
 ### 3.2 Key Result: Proxy Advantage Suppresses Optimal Output
 
-**Proposition**: For any rational agent maximising $$U(I)$$, the relationship between the optimal investment $$I^*$$ and the proxy value $$P$$ is determined by the agent's current probability of success $$S(x)$$. Specifically:
+**Proposition**: The relationship between the optimal investment $$I^*$$ and the proxy value $$P$$ is determined by the agent's current $$S(x)$$. Specifically:
 
 - If $$S(x) > 0.5$$, then $$\large \frac{\partial I^*}{\partial P}$$ $$< 0$$.
 - If $$S(x) < 0.5$$, then $$\large \frac{\partial I^*}{\partial P}$$ $$> 0$$.
